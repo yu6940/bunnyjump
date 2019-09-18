@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Platform/StaticBody2D.tscn" type="PackedScene" id=1]
+[ext_resource path="res://GFX/Environment/ground_grass_small.png" type="Texture" id=2]
+
+[node name="StaticBody2D_Green" index="0" instance=ExtResource( 1 )]
+position = Vector2( 266.631, 242.004 )
+
+[node name="Sprite" parent="." index="0"]
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" parent="." index="1"]
+position = Vector2( 91.9478, -0.737 )
+scale = Vector2( 1, 1.00962 )
+polygon = PoolVector2Array( -186.662, -50.7169, 1.39352, -47.7118, 11.9449, -20.5797, -18.2019, 47.2506, -167.429, 44.236, -195.453, -17.3132 )
