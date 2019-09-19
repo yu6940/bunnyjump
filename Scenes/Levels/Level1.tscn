@@ -2,23 +2,28 @@
 
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Platform/StaticBody2D_Pink.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Platform/StaticBody2D.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Platform/StaticBody2D_White.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Platform/StaticBody2D_Yellow.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Platform/StaticBody2D_Yellow.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Platform/StaticBody2D_Green.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Platform/StaticBody2D_White.tscn" type="PackedScene" id=5]
 
 [node name="Level1" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 178.163, 115.28 )
+position = Vector2( 186.581, 110.963 )
+scale = Vector2( 0.5, 0.5 )
 
 [node name="StaticBody2D_Pink" parent="." instance=ExtResource( 2 )]
-position = Vector2( 473.879, 531.445 )
+position = Vector2( 408.742, 469.648 )
+scale = Vector2( 0.5, 0.5 )
 
-[node name="StaticBody2D" parent="." instance=ExtResource( 3 )]
-position = Vector2( 194.149, 268.285 )
-
-[node name="StaticBody2D_White" parent="." instance=ExtResource( 4 )]
-position = Vector2( 680.959, 266.53 )
-
-[node name="StaticBody2D_Yellow" parent="." instance=ExtResource( 5 )]
+[node name="StaticBody2D_Yellow" parent="." instance=ExtResource( 3 )]
 position = Vector2( 906.954, 526.79 )
+scale = Vector2( 0.5, 0.5 )
+
+[node name="StaticBody2D_Green" parent="." instance=ExtResource( 4 )]
+position = Vector2( 187.738, 238.295 )
+scale = Vector2( 0.5, 0.5 )
+
+[node name="StaticBody2D_White" parent="." instance=ExtResource( 5 )]
+position = Vector2( 648.074, 324.688 )
+scale = Vector2( 0.5, 0.5 )
