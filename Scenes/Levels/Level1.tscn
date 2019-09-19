@@ -13,11 +13,11 @@ position = Vector2( 186.581, 110.963 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="StaticBody2D_Pink" parent="." instance=ExtResource( 2 )]
-position = Vector2( 408.742, 469.648 )
+position = Vector2( 365.21, 295.52 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="StaticBody2D_Yellow" parent="." instance=ExtResource( 3 )]
-position = Vector2( 906.954, 526.79 )
+position = Vector2( 606.532, 213.459 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="StaticBody2D_Green" parent="." instance=ExtResource( 4 )]
@@ -25,5 +25,5 @@ position = Vector2( 187.738, 238.295 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="StaticBody2D_White" parent="." instance=ExtResource( 5 )]
-position = Vector2( 648.074, 324.688 )
+position = Vector2( 483.468, 296.12 )
 scale = Vector2( 0.5, 0.5 )
