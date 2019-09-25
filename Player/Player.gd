@@ -28,13 +28,12 @@ func WATK():
 		motion.x = 0
 		
 func JUMP():
-	if jump_count < 1 : #เป็นการทำให้กระโดดได้มากกว่า 1 ครั้ง
+	if is_on_floor(): #เป็นการทำให้กระโดดได้มากกว่า 1 ครั้ง
 	
 		if Input.is_action_just_pressed("jump"): 
 			motion.y = -JUMP
-			jump_count = jump_count + 1
-	if is_on_floor():#จะกระโดดอีกครั้ง เมื่ออยู่บนพื้นเท่านั้น 
-		jump_count = 0
+			
+	
 	#else:
 		#motion.y = 700 #ไม่จำเป็นต้องใสelse่ เพราะมีmotion.yข้างบนแล้ว
 	
